@@ -89,6 +89,90 @@ export default function Home() {
         </div>
     </section>
 
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item"><a href="#" class="topicos__link">Soluções Para Seu Veículo</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Financiamento</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Cartão de Crédito</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Seguros</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Veículos</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Reparos</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Assinatura</a></li>
+        </ul>
+    </section>
+
+
+    <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de seguros, serviços e muito mais.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email"/>
+    </section>
+
+
+    <hr/>
+    <h2 class="rodape__titulo">Grupo Pamv</h2>
+    <footer class="rodape">
+        <div class="card__integrantes">
+            <div class="card__descricao-integrantes">
+                <div class="descricao__integrantes">
+                    <h3 class="descricao__nome">Breno Giacoppini Câmara</h3>
+                    <h2 class="descricao__rm">Procurar RM</h2>
+                    <p class="descricao__funcao">Python</p>
+                </div>
+                <img src="/images/BrenoGiacoppini.jpg" alt="Breno Giacoppini Câmara" class="img__integrantes"/>
+            </div>
+            <div class="card__botoes-integrantes">
+                <a href="#" class="botoes__ancora-integrantes">Saiba Mais</a>
+            </div>
+        </div>
+
+        <div class="card__integrantes">
+            <div class="card__descricao-integrantes">
+                <div class="descricao__integrantes">
+                    <h3 class="descricao__nome">Felipe Batista Gregório</h3>
+                    <h2 class="descricao__rm">RM99985</h2>
+                    <p class="descricao__funcao">DataBase & UX</p>
+                </div>
+                <img src="/images/FelipeBatista.jpg" alt="Felipe Batista Gregório" class="img__integrantes"/>
+            </div>
+            <div class="card__botoes-integrantes">
+                <a href="#" class="botoes__ancora-integrantes">Saiba Mais</a>
+            </div>
+        </div>
+
+        <div class="card__integrantes">
+            <div class="card__descricao-integrantes">
+                <div class="descricao__integrantes">
+                    <h3 class="descricao__nome">Matheus Oliveira Macedo</h3>
+                    <h2 class="descricao__rm">RM551155</h2>
+                    <p class="descricao__funcao">Front-End</p>
+                </div>
+                <img src="/images/MatheusOliveira.jpg" alt="Matheus Oliveira Macedo" class="img__integrantes"/>
+            </div>
+            <div class="card__botoes-integrantes">
+                <a href="#" class="botoes__ancora-integrantes">Saiba Mais</a>
+            </div>
+        </div>
+
+        <div class="card__integrantes">
+            <div class="card__descricao-integrantes">
+                <div class="descricao__integrantes">
+                    <h3 class="descricao__nome">Victor Freitas Silva</h3>
+                    <h2 class="descricao__rm">RM99982</h2>
+                    <p class="descricao__funcao">Java</p>
+                </div>
+                <img src="/images/VictorFreitas.jpg" alt="Victor Freitas Silva" class="img__integrantes"/>
+            </div>
+            <div class="card__botoes-integrantes">
+                <a href="#" class="botoes__ancora-integrantes">Saiba Mais</a>
+            </div>
+        </div>
+    </footer>
+
     </body>
   )
 }
