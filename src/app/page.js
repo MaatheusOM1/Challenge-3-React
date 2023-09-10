@@ -1,7 +1,6 @@
 export default function Home() {
   return (
     <body>
-      
       <header class="cabecalho">
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao"/>
@@ -172,7 +171,6 @@ export default function Home() {
             </div>
         </div>
     </footer>
-
     </body>
   )
 }
