@@ -41,6 +41,13 @@ export default function Home() {
         </div>
     </header>
 
+
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre o que precisa para seu seguro!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual sua pesquisa?"/>
+    </section>
+
     </body>
   )
 }
