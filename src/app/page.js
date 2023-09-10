@@ -48,6 +48,47 @@ export default function Home() {
         <input type="search" class="banner__pesquisa" placeholder="Qual sua pesquisa?"/>
     </section>
 
+
+    <section class="secao">
+        <img src="/images/Porto.png" alt="PortoSeguro" class="porto__chatbot"/>
+        <div class="secao__container">
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Utilize nosso chatbot para resolver
+                            seu problema relacionado
+                            a guincho da forma mais
+                            rapida e eficaz possível!</h3>
+                    </div>
+                </div>
+                <div class="card__botoes">
+                    <a href="#" class="botoes__ancora">ChatBot!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao">
+        <div class="secao__container">
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h2 class="resposta__bot"><img src="/images/Palm angels.svg"/>Olá, como posso ajudar?</h2>
+                        <h2 class="resposta__usuario">Preciso de um guincho<img src="/images/Palm angels.svg"/></h2>
+                        <h2 class="resposta__bot"><img src="/images/Palm angels.svg"/>Qual a situação do veículo?</h2>
+                        <h2 class="resposta__usuario">Grave<img src="/images/Palm angels.svg"/></h2>
+                        <h2 class="resposta__bot"><img src="/images/Palm angels.svg"/>Alguma dessas opções ocorreu?</h2>
+                    </div>
+                </div>
+                <div class="card__botoes">
+                    <a href="#" class="botoes__chatbot">Tombou</a>
+                    <a href="#" class="botoes__chatbot">Bateu</a>
+                    <a href="#" class="botoes__chatbot">Nenhuma das opções</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     </body>
   )
 }
